@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.line{
+    height: 2px !important;
+    width: 80px !important;
+    background-color: #5958B5;
+}
+.word-color{
+    color: #5958B5 !important;
+}
+html{
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+body {
+    font-family: "Tajawal", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    background-image: url(./img/image\ 1.png);
+    background-size: cover;
+    background-color: #322e76;
+    text-align: center;
+    height: 675px;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+header .offcanvas{
+    background-color: #EFF1FF !important;
+}
+header .offcanvas .offcanvas-header h5{
+    color: #5958B5 ;
+}
+header .offcanvas ul li a{
+    color: #5958B5 ;
+}
+header .navbar .container-fluid #bot1{ 
+    color: white;
+}
+header .navbar .container-fluid #bot1 #talk-us{
+    border: 1px solid white;
+    color: white;
+}
+.offcanvas {
+    width: 250px; /* Adjust the width as needed */
+}
+header .txt a{
+    background-color: white;
+    color: #2F2B73;
+}
+/* header #toggle {
+    background-color: white;
+} */
+@media (max-width: 992px) {
+    .navbar .container-fluid .image1{
+        display: none !important;
+    }
+}
+@media (min-width: 992px) {
+    /* header .navbar .container-fluid #bot1 #lang-1{
+        display: none;
+    } */
+    /* header .navbar .container-fluid #bot1 #lang-2{
+        display: inline;
+    } */
+    .navbar .container-fluid .image2{
+        display: none !important;
+    }
+
+}
+@media (min-width: 992px) {
+    header .d-flex p{
+        margin-top: 3rem !important;
+        color: white;
+        width: 55% !important;
+        font-size: 62px;
+    }
+}
+@media (min-width: 767px) {
+    header .d-flex p{
+        margin-top: 3rem;
+        color: white;
+        width: 100% ;
+        font-size: 40px;
+    }
+}
+/* md screen */
+@media (max-width: 992px) {
+    header{
+        height: 390px;
+    }
+    /* header .navbar .container-fluid #bot1 #lang-1{
+        display: inline;
+    } */
+    /* header .navbar .container-fluid #bot1 #lang-2{
+        display: none;
+    } */
+    .navbar .container-fluid .list{
+        display: none;
+    }
+    .navbar .container-fluid .image2{
+        width: 80px;
+    }
+    .navbar .container-fluid div #talk-us{
+        display: inline-block;
+        width: 114px !important;
+        padding: 5px 10px !important;
+        font-size: 14px;
+    }
+    .navbar .container-fluid #bot2{
+        display: none;
+    }
+}
+/* sm screen */
+@media (max-width: 767px) {
+    header{
+        height: 207px;
+    }
+    header .navbar .container-fluid #bot1 #talk-us{
+        display: none;
+    }
+    header .d-flex{
+        margin-top: 5px !important;
+    }
+    header .d-flex p{
+        color: white;
+        font-size: 19px !important;
+    }
+    header .d-flex a{
+        font-size: 14px !important;
+    }
+    .navbar .container-fluid .image2{
+        width: 60px;
+    }
+    .navbar .container-fluid div #talk-us{
+        display: inline-block;
+        width: 88px !important;
+        padding: 5px 10px !important;
+        font-size: 12px;
+    }
+    .navbar .container-fluid #bot1 img{
+        margin: 0 !important;
+    }
+}
+header nav div ul li a{
+    color: white !important;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+#hero-two{
+    background-color: #322e76;
+    color: white;
+}
+/* start who are we  */
+.who{
+    overflow: hidden;
+    background-image: url(./img/who\ we\ are.png);
+    background-size: cover;
+    /* background-color: #EFF1FF; */
+}
+.who .position-absolute{
+    left: 3%;
+}
+.who .row div p{
+    text-align: justify;
+}
+
+.who .row .info-company  .txt a{
+    color: #2F2B73 !important;
+}
+.who .row .info-company  .show a{
+    background-color: #2F2B73;
+    color: white;
+}
+@media (max-width: 768px) {
+    .who .row div img{
+        display: none;
+    }
+    .who .position-absolute{
+        left: 3%;
+        bottom: -210px !important;
+    }
+    .who .row .info-company  .txt{
+        width: 100% !important;
+        text-align: justify;
+    }
+}
+/* end who are we  */
+/* start new service */
+.service .content .row p{
+    text-align: justify;
+}
+.service .content .row a{
+    color: #2F2B73;
+}
+.swiper a{
+    color: #2F2B73;
+    border-color: #2F2B73 !important;
+}
+
+.service .show a{
+    background-color: #2F2B73;
+    color: white;
+}
+/* lg screen  */
+@media (min-width: 992px) {
+    .service .content .row article{
+        width: 30%;
+        height: 320px;
+        text-align: justify;
+    }
+}
+/* md screen  */
+@media (max-width: 992px) {
+    .service .content .row article{
+        width: 45%;
+        height: 280px;
+        text-align: justify;
+    }
+}
+/* sm screen  */
+@media (max-width: 768px) {
+    .service .content .row{
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .service .content .swiper{
+        display: none;
+    }
+}
+/* end new service */
+/* start hero two */
+.hero-two{
+    background-image: url(./img/Background\ pattern.svg);
+    background-size: cover;
+}
+.hero-two p{
+    width: 706px;
+}
+@media (max-width: 767px) {
+    .hero-two p{
+        width: 100%;
+    }
+}
+/* end hero two */
+#btn-2{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#btn-2:hover{
+    background-color: #322e76;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btn{
+    background-color: #322e76;
+    color: #ffffff;
+    text-decoration: none;
+}
+#btn:hover{
+    background-color: white;
+    color: #322e76;
+    font-size: 16px;
+    font-weight: bold;
+}
+.about-us, .services, .contact-us {
+    text-align: center;
+}
+.about-us .row .col-md-5{
+    background-color: #f8fcff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.service-box {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    min-height: 37rem;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.service-boxx {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    min-height: 10rem;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .service-box {
+        min-height: 27rem;
+    }
+}
+/* Avoid this if you want original colors */
+.contact-us i {
+    color: #1E3050; /* This will override the original icon color */
+}
+.contact-us i:hover {
+    color: #322e76; /* This will override the original icon color */
+}
+/* start footer  */
+footer {
+    background-image: url(./img/footer.svg);
+    background-size: cover;
+    background-color: #322e76;
+    color: #fff;
+    padding: 20px;
+}
+@media (max-width: 767px) {
+    footer .row #quick-links{
+        display: none;
+    }
+}
+
+footer a {
+    color: #b1b1f7;
+}
+
+/* end footer  */
+.services-container {
+    display: flex; 
+    overflow-x: auto; 
+    gap: 20px; 
+    scroll-behavior: smooth;
+    padding-bottom: 20px; 
+}
+
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+}
+.icon-box:hover{
+    background-color: #b1b1f7;
+}
+.icon-box i {
+    color: #1a237e;
+    font-size: 2rem;
+}
+.container {
+    margin-bottom: 100px; /* Adjust this value as needed */
+}
+
+@keyframes scaleAnimation {
+    0% { 
+        transform: scale(1); 
+    }
+    50% { 
+        transform: scale(1.05); 
+    }
+    100% { 
+        transform: scale(1); 
+    }
+}
+
+/* Apply the animation to the desired element */
+.animat {
+    animation: scaleAnimation 1s ease-in-out infinite; /* Adjust duration and easing as needed */
+}
